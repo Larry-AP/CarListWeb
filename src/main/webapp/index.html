@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Car List</title>
+</head>
+<body>
+	<h1>My Car List!</h1>
+	<form action = "addItemServlet" method="post">
+		Make: <input type ="text" name = "make">
+		Model: <input type = "text" name = "model">
+		Year: <input type = "text" name = "year">
+	<input type = "submit" value="Add Item">
+	</form> <br />
+	
+	<a href = "viewAllItemsServlet">View the complete car list</a><br />
+	
+	<a href="viewAllListsServlet">View all car lists</a> <br />
+	<a href="addItemsForListServlet">Create a new list</a>
+</body>
+</html>
